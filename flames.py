@@ -37,17 +37,17 @@ def match():
                 break
     #Driving Meaning for the FLAMES character
     if flames=='f':
-        result="You both will be good Friends"
+        result="Friends"
     elif flames=='l':
-        result="You both will Love each other"
+        result="Love each other"
     elif flames=='a':
-        result="You both are Affectionated"
+        result="Affectionated"
     elif flames=='m':
-        result="Congratulations!! You both will get Married"
+        result="Marriage"
     elif flames=='e':
-        result="You both will be Enemies"
+        result="Enemies"
     else:
-        result="You both will be like brother and sister"
+        result="Brother and Sister"
     res.set(result)
 
 label1=tk.Label(master=window,text="Enter your Name:").grid(row=0,column=0)
