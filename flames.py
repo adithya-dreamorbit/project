@@ -49,9 +49,6 @@ def match():
     else:
         result="Brother and Sister"
     res.set(result)
-def numerology():
-    pass
-
 label1=tk.Label(master=window,text="Enter your Name:").grid(row=0,column=0)
 entry1=tk.Entry(master=window,textvariable=n1).grid(row=0,column=1)
 
