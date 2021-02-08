@@ -38,16 +38,22 @@ def match():
     #Driving Meaning for the FLAMES character
     if flames=='f':
         result="Friends"
+        tk.messagebox.showinfo("Good Friends")
     elif flames=='l':
         result="Love each other"
+        tk.messagebox.showinfo("Love each other")
     elif flames=='a':
         result="Affectionated"
+        tk.messagebox.showinfo("You both are more Affectionated")
     elif flames=='m':
         result="Marriage"
+        tk.messagebox.showinfo("You both will get Married")
     elif flames=='e':
         result="Enemies"
+        tk.messagebox.showinfo("You both are Enemies")
     else:
         result="Brother and Sister"
+        tk.messagebox.showinfo("You both will be brothers and sisters")
     res.set(result)
 def neumerology():
     pass
