@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import messagebox
 window=tk.Tk()
 window.title("Flames")
 n1=tk.StringVar()
@@ -38,6 +39,22 @@ def match():
     #Driving Meaning for the FLAMES character
     if flames=='f':
         result="Friends"
+        messagebox.showinfo('Friends',"You are good friends")
+    elif flames=='l':
+        result="Love"
+        messagebox.showinfo("Love","You both will love each other")
+    elif flames=='a':
+        result="Affection"
+        messagebox.showinfo("Affection","You both will be more affectionated")
+    elif flames=='m':
+        result="Marriage"
+        messagebox.showinfo("Marriage","You both will get married")
+    elif flames=='e':
+        result="Enemies"
+        messagebox.showinfo("Enemies","You both will be enemies")
+    else:
+        result="Brother and Sister"
+        messagebox.showinfo("Brother/Sister","You both will be brothers and sisters")
         tk.messagebox.showinfo("Good Friends")
     elif flames=='l':
         result="Love each other"
