@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import messagebox
 window=tk.Tk()
 window.title("Flames")
 n1=tk.StringVar()
@@ -38,22 +39,22 @@ def match():
     #Driving Meaning for the FLAMES character
     if flames=='f':
         result="Friends"
-        tk.messagebox.showinfo("Good Friends")
+        messagebox.showinfo("Friend","Good Friends")
     elif flames=='l':
         result="Love each other"
-        tk.messagebox.showinfo("Love each other")
+        messagebox.showinfo("Love","Love each other")
     elif flames=='a':
         result="Affectionated"
-        tk.messagebox.showinfo("You both are more Affectionated")
+        messagebox.showinfo("Affection","You both are more Affectionated")
     elif flames=='m':
         result="Marriage"
-        tk.messagebox.showinfo("You both will get Married")
+        messagebox.showinfo("Marriage","You both will get Married")
     elif flames=='e':
         result="Enemies"
-        tk.messagebox.showinfo("You both are Enemies")
+        messagebox.showinfo("Enemies","You both are Enemies")
     else:
         result="Brother and Sister"
-        tk.messagebox.showinfo("You both will be brothers and sisters")
+        messagebox.showinfo("Brothers & Sisters","You both will be brothers and sisters")
     res.set(result)
 def neumerology():
     pass
