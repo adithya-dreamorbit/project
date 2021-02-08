@@ -6,6 +6,7 @@ window.title("Flames")
 n1=tk.StringVar()
 n2=tk.StringVar()
 res=tk.StringVar()
+#Function that implements matching logic 
 def match():
     name1=str(n1.get())
     name2=str(n2.get())
